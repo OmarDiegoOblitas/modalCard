@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1rem 1.2rem 16rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}.name{
+    color: gray;
+ }
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.photo{
+    width: 45px;
+    height: 45px;
+    border-radius: .5rem;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.date{
+    display: flex;
+    justify-content: start;
+}
+.search{
+    background-color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
+.iconStyle{
+    padding: 1rem;
+    background-color: white;
+    border-radius: .5rem;
+}
+@media (max-width: 768px) {
+    .header{
+        padding: .5rem 1rem .5rem 4rem;
+    }
+    .search{
+        padding: 1rem .5rem;
+    }
+    .photo{
+        display: none;
+    }
+}
